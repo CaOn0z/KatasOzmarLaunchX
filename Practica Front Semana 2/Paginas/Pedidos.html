@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Pasteleria Rosi</title>
+        </head>
+        <body style="background-color:  #dd81e0;" >
+            
+            <div align="center">
+            <h1>PEDIDOS</h1>
+            <p>Ingresa los datos que se te piden para relizar tu pedido <br> Utiliza las opciones de abajo para seleccionar tu pedio: Sabor y los ingredientes.</p>
+            <br>
+        
+            <label for="Inpunt1">Nombre:</label>
+            <br>
+            <input type="text" id="Input1" name="Input1">
+            <br>
+            <label for="numero1">Numero Telefonico:</label><br>
+            <input type="number" id="numero1" name="numero1"><br>
+            <label for="correo1">Correo Electronico:</label><br>
+            <input type="email" id="correo1" name="correo1"><hr>
+            <h2>Selecciona el sabor de tu pastel y la decoracion</h2>
+            
+            <h3>Numero de Pasteles</h3>
+
+            <div id="imagenes">
+                <img src="./chocolate.jpg" height="200" width="200"/>
+                <img src="./vainilla.jpg" height="200" width="200"/>
+                <img src="./fresa.jpg" height="200" width="200"/>
+            </div>
+            <br>
+            <input type="checkbox" name="Cpastel" id="Cpastel" value="Chocolate">
+            <label for="Cpastel">Pastel de Chocolate...$100</label><br>
+            <input type="number" id="Ccuantos" name="Ccuantos" placeholder="Pasteles"><br>
+
+            <input type="checkbox" name="Vpastel" id="Vpastel" value="Vainilla">
+            <label for="Vpastel">Pastel de Vainilla...$90</label><br>
+            <input type="number" id="Vcuantos" name="Vcuantos" placeholder="Pasteles"><br>
+
+            <input type="checkbox" name="Fpastel" id="Fpastel" value="Fresa">
+            <label for="Fpastel">Pastel de Fresa...$95</label><br>
+            <input type="number" id="Fcuantos" name="Fcuantos" placeholder="Pasteles"><br>
+
+            <p>Pastel Conbinado: Selecciona los sabores que quieras combinar y el numero de Pasteles</p>
+
+            <input type="checkbox" name="CConpastel" id="CConpastel" value="ConbinadoPC">
+            <label for="CConpastel">Chocolate</label><br>
+
+            <input type="checkbox" name="VConpastel" id="VConpastel" value="ConbinadoPV">
+            <label for="VConpastel">Vainilla</label><br>
+
+            <input type="checkbox" name="FConpastel" id="FConpastel" value="ConbinadoPF">
+            <label for="FConpastel">Fresa</label><br>
+            <input type="number" id="Fcuantos" name="Fcuantos" placeholder="Pasteles"><br>
+
+            <p>Decoracion: Selecciona la o las decoraciones para tu Pastel</p>
+
+            <input type="checkbox" name="Dflores" id="Dflores" value="DecoracionF">
+            <label for="Dflores">Flores</label><br>
+
+            <input type="checkbox" name="Dperlas" id="Dperlas" value="DecoracionP">
+            <label for="Dperlas">Perlas</label><br>
+
+            <input type="checkbox" name="DFresas" id="DFresas" value="DecoracionF">
+            <label for="DFresas">Fresas</label><br>
+
+            <input type="checkbox" name="DLChcocolat" id="DLChocolat" value="DecoracionLC">
+            <label for="DLChocolat">Laminas de Chocolate</label><br>
+
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+            <br><br>
+        </div>
+        
+           
+
+
+        </body>
+    </head>
+</html>
